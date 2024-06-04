@@ -15,5 +15,10 @@ x = int(input('Informe o primeiro valor: '))
 y = int(input('Informe o segundo valor: '))
 resultados = calcular_tabuada (x, y)
 
-for resultado in resultados:
-    print (resultado)
+#for resultado in resultados:
+#    print (resultado)
+
+print(f'A soma é {next(resultados)}.')    
+print(f'A subtração é {next(resultados)}.')    
+print(f'A multiplicação é {next(resultados)}.')    
+print(f'A divisão é {next(resultados)}.')    
